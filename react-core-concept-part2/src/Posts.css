@@ -1,0 +1,12 @@
+.post{
+    border: 5px solid cornflowerblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: lightgray;
+    border-radius: 8px;
+}
+
+.post__color{
+    background-color: lightcoral;
+    color: black;
+}
