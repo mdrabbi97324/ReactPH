@@ -4,6 +4,12 @@
     gap: 10px;
 }
 
+.flag-container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
 
 
 @media (max-width: 1280px)  {
