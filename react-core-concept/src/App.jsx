@@ -5,6 +5,7 @@ import './App.css'
 import Todo from './Todo'
 import Actor from './Actor'
 import Singer from './Singer'
+import ParentComponent from './ParentComponent'
 
 function App() {
   const actors = ['Jasim', 'Alomgir', 'Rubel', 'Chikun Ali', ];
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <ParentComponent></ParentComponent>
       <Actor name='Bappa Raz'></Actor>
       {actors.map(actor => <Actor name={actor}></Actor>)}
       {

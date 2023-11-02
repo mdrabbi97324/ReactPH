@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Country.css'
-export default function Country({country, handleVisitedCountry, handleVisitedFlags}){
-    console.log(country)
+export default function Country({props}){
+    const {country, handleVisitedCountry, handleVisitedFlags} = props;
     const [visited, setVisited] = useState(false);
     const handleClick = () => {
         setVisited(!visited)
