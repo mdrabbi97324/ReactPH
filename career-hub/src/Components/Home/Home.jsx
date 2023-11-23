@@ -1,9 +1,15 @@
 import CategoryList from "../CategoryList/CategoryList";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
+import { Helmet } from 'react-helmet-async';
+
 
 const Home = () => {
+
     return ( 
         <>
+          <Helmet>
+             <title>Career Hub | Home</title>
+          </Helmet>
             <div className="hero">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img src="/images/user.png" className=" w-72 md:w-[700px] rounded-lg" />

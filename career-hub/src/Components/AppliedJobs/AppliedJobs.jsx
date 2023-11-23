@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import AppliedJobsCard from "./AppliedJobsCard";
 import { useLoaderData } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const AppliedJobs = () => {
     const jobs = useLoaderData();
@@ -42,7 +43,10 @@ const AppliedJobs = () => {
         }
 
     },[jobs])
-    return (
+    return (<>
+            <Helmet>
+                <title>Applied Jobs</title>
+            </Helmet>
         <div className="min-h-screen max-w-7xl mx-auto px-6">
             <h2 className=" text-3xl font-extrabold text-center py-20">Applied Jobs</h2>
              <div className="text-right">
@@ -62,6 +66,7 @@ const AppliedJobs = () => {
                 }
             </div>
         </div>
+    </>
     );
 };
 

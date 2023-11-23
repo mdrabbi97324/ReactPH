@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from 'sweetalert';
 
@@ -38,6 +39,7 @@ import swal from 'sweetalert';
 
 return (
     <div className="p-6">
+        <Helmet><title>Job Details</title></Helmet>
         <h2 className=" text-3xl font-extrabold text-center py-20">Job Details</h2>
             <div className="grid md:grid-cols-3 gap-10 md:gap-6 md:mb-52">
                 <div className="md:col-span-2 space-y-6">
