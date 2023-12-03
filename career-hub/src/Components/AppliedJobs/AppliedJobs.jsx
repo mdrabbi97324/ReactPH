@@ -45,7 +45,7 @@ const AppliedJobs = () => {
     },[jobs])
     return (<>
             <Helmet>
-                <title>Applied Jobs</title>
+                <title>Applied Jobs !</title>
             </Helmet>
         <div className="min-h-screen max-w-7xl mx-auto px-6">
             <h2 className=" text-3xl font-extrabold text-center py-20">Applied Jobs</h2>
