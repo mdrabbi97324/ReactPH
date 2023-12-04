@@ -4,7 +4,7 @@ import Header from "../shared/Header/Header";
 import LeftSideNav from "../shared/LeftSideNavbar.jsx/LeftSideNav";
 import Navbar from "../shared/Navbar/Navbar";
 import RightSideNav from "../shared/RightSideNavbar.jsx/RightSideNav";
-import EachNewsCard from "../Components/eachNewsCard";
+import EachNewsCard from "../Components/EachNewsCard";
 
 const Home = () => {
 
